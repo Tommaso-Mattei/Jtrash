@@ -20,8 +20,8 @@ public class AnimationPanel extends JPanel implements ActionListener{
 	final int altezza = 240;
 	Image joker;
 	Timer timer;
-	int velocitàX = 1;
-	int velocitàY = 1;
+	int velocitaX = 1;
+	int velocitaY = 1;
 	int x = 0;
 	int y = 0;
 	/**
@@ -49,14 +49,14 @@ public class AnimationPanel extends JPanel implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if (x >= larghezza - joker.getWidth(null) || x<0) {
-			velocitàX = velocitàX * -1;
+			velocitaX = velocitaX * -1;
 		}
-		x = x+velocitàX;
+		x = x+velocitaX;
 		
 		if (y >= altezza - joker.getHeight(null) || y<0) {
-			velocitàY = velocitàY * -1;
+			velocitaY = velocitaY * -1;
 		}
-		y = y+velocitàY;
+		y = y+velocitaY;
 		repaint();
 		
 	}
