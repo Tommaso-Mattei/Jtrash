@@ -1,1 +1,1 @@
-Tommaso,Aurelius,src\model\ProfileImages\0.png,0,0,1
+Tommaso,Robert,C:\Users\Tommaso\eclipse-workspace\Jtrash\src\model\ProfileImages\1.jpg,0,0,1
