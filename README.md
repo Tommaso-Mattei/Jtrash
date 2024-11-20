@@ -6,3 +6,6 @@ The project implements the possibility of creating a profile to store your game 
 # Structure 
 In JTrashUML we have the UML diagram of the entire project. In Relazione_Jtrash_Java we have a detalied explanation of all the classes of the project, plus the explanation of the design patterns used (mainly Model, View, Controller). 
 Inside src/Model we have all the classes plus the assets used. Inside Doc we have documentation for all the relevant methods and classes of the project.
+
+#Main game example
+![Screenshot](ScreenImage/Example.png)
